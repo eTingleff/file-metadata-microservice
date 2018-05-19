@@ -10,6 +10,6 @@ BleepBloopBlorp
 I'm a Readme.md
 
 
-Made by [Eric Tingleff](https://github.com/eTingz)
+Made by [Eric Tingleff](https://github.com/eTingleff)
 -------------------
 
