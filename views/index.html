@@ -1,0 +1,58 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>File Metadata Microservice</title>
+    <meta name="description" content="A microservice for getting the size of an uploaded file">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        <!-- TODO -->
+      </h1>
+    </header>
+
+    <main>
+      
+      <div>
+        <form method="post" action="/upload" enctype="multipart/form-data">
+          <input id="file-uploader" type="file" name="file" multiple="false" required="true">
+          <input type="submit" value="Submit">
+        </form> 
+        
+        <button id="reset-button">
+          Reset Form
+        </button>
+        
+        <!--
+        <button id="logger">
+          Log File Data
+        </button>
+        -->
+      </div>
+      
+    </main>
+    
+    <footer>
+      <!-- TODO? -->
+    </footer>
+    
+    <script src="/client.js"></script>
+
+  </body>
+</html>
